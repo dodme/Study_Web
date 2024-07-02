@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: yellow;
+      }
+
+      /* 미디어 쿼리 */
+      /* max-, min- 접두사를 사용할 수 있어요 */
+      /* (orientation: landscape) -> 가로모드로 보고있을때 조건 */
+      /* (orientation: portrait) -> 세로모드로 보고있을때 조건 */
+      @media screen and (max-width: 1000px) {
+        body {
+          background-color: red;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        body {
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
